@@ -1,7 +1,7 @@
-# Drone-Bee
-Deployment Link : https://harsh04102002.github.io/DroneBee.github.io/
 
-# DroneBee
+Demo Deployment Link : https://harsh04102002.github.io/DroneBee.github.io/
+
+# Drone-Bee
 1. Please allow the location permission if you get a popup like this:
    
 ![Screenshot (91)](https://user-images.githubusercontent.com/97248127/230001551-d018a2b1-0b82-4674-9f9b-0086eb3eb740.png)
