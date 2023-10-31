@@ -3,7 +3,7 @@ const express = require("express")
 const path = require("path")
 const app = express()
 const LogInCollection = require("./mongo")
-const port = 8000
+
 app.use(express.json())
  
 app.use(express.urlencoded({ extended: false }))
@@ -79,6 +79,7 @@ app.post('/login', async (req, res) => {
 
 
 
-app.listen(port, () => {
-    console.log('port connected');
-})
+const port = process.env.PORT || 3000 ;
+const server = app.listen(port, () => {
+  console.log(`App running on port ${port}...`);
+});
