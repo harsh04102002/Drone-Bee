@@ -16,7 +16,8 @@ mongoose.set('strictQuery', false);
 //Atlas Link 
 
 // const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://harsh:20ec01033@cluster0.ej4ottn.mongodb.net/DroneBee?retryWrites=true&w=majority";
+// const uri = "mongodb+srv://harsh:20ec01033@cluster0.ej4ottn.mongodb.net/DroneBee?retryWrites=true&w=majority";
+const uri = "mongodb+srv://harsh:20ec01033@cluster0.ej4ottn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 //Atlas connection
 mongoose.connect(uri,{
